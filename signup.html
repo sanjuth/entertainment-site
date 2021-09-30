@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:azure;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page</title>
+</head>
+
+<body>
+    <div style="background-color: rgb(214, 88, 50);">
+    <br>
+    <h2 align="center" style="color:rgb(255, 254, 254);"><strong>Create Your Account Today</strong></h2>
+    <br>
+
+</div>
+    <form action="">
+        <h2 style="color:black">Personal Information</h2>
+        <fieldset style="background-color:#9adada;" >
+            <!--legend align="center"> <h2>Personal Information</h2></legend>-->
+            <h3>Fill in your details</h3>
+            <p>Name : <input type="text" required></p>
+
+            <p>Date of Birth : <input type="date" required></p>
+
+
+            <p>Gender :
+                <select name="" required>
+                    <option value="--Select--">--Select--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </p>
+
+            <p>Contact Number : <input type="tel" id="phone" name="phone" maxlength="10" required></p>
+
+            <p>Aadhar number : <input type="tel" placeholder=" xxxx-xxxx-xxxx " pattern="[0-9\-]" maxlength="14" required>
+            </p>
+            <p>Upload Aadhar : <input type="file" accept="image/*" max="20kb"></p>(max size 20kb)
+            
+            
+        </fieldset>
+        <p><h2 style="color: black;">Payment Details</h2></p>
+        <fieldset style="background-color:#9adada;" style="width: 100px;">
+            <!--legend align="center" style="color: rgb(0, 146, 97);"><h2>Payment Details</h2></legend>-->
+            <h3>Fill in your Card details</h3>
+            <img src="/visa image.png" alt="" width="200px" align="right">
+            <p>Name on Card : <input type="text" required></p>
+            <p>Choose your Bank : <select name="" id="" required>
+                <option value="">--Select--</option>
+                <option value="">SBI Bank</option>
+                <option value="">HDFC Bank</option>
+                <option value="">Axis Bank</option>
+                <option value="">Union Bank</option>
+            </select></p>            
+             <p>Credit Card number : <input type="text" placeholder="xxxx xxxx xxxx xxxx"  maxlength="19" required></p>
+             <p>Expiration Date : <input type="date" required></p>
+             <p>CVV : <input type="password" maxlength="3" style="width: 45px" required></p>
+        </fieldset>
+        <br>
+        <!-- <input type="button" value="Submit" style="width: 100px; height: 50px;"> -->
+        <!-- <a href="https://www.w3schools.com/tags/att_input_type_tel.asp" target="_blank"> -->
+        <!-- <button style="background-color: rgb(231, 88, 44); border: none; border-radius: 5px; color: rgb(255, 245, 245); /* Dark grey */ padding: 15px 32px" href="https://www.w3schools.com/tags/att_input_type_tel.asp">Create My Account</button> -->
+
+        <center>
+            <a href="created.html"><img src="submit-button-png-25798.png" alt="" width="150" ></a>
+            </center>
+    </form>
+</body>
+
+</html>
